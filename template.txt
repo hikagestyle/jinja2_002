@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>{% include "./_inc/title.txt" %}</title>
+
+</head>
+
+  <body>
+
+{% include "./_inc/home.txt" %}
+
+<h1>{% include "./_inc/title.txt" %}</h1>
+
+
+<h2>見出し</h2>
+
+{{ data1 }}
+
+<p>{{ data2 }}</p>
+<p>{{ data3 }}</p>
+<p>{{ data4 }}</p>
+<p>{{ data5 }}</p>
+
+{% include "./_inc/footer.txt" %}
+
+  </body>
+</html>
