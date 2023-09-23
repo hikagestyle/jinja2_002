@@ -7,6 +7,8 @@
 
 ## pipからjinja2パッケージをインストール
 
+すでにインストールしている場合は不要
+
 pip3 install jinja2
 
 
